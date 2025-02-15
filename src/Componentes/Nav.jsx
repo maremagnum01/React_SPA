@@ -21,7 +21,7 @@ export default function Nav() {
                     <li class="nav-item">
                         <a href="#portfolio" class="nav-link">Portfolio</a>
                     </li>
-                    <li class="nav-item last-item">
+                    <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact</a>
                     </li>
                     <li class="nav-item last-item">

@@ -1,21 +1,23 @@
+import DescargarCV from "./DescargarCV";
+
 export default function Container(){
     return (
         <div class="container-fluid" >
         <div id="about" class="row about-section">
             <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Who am I ?</h3>
+                <h3 class="font-weight-light">Quien soy?</h3>
                 <span class="line mb-5"></span>
-                <h5 class="mb-3">A Web Designer / Developer Located In Our Lovely Earth</h5>
-                <p class="mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit.sit amet, Qui deserunt consequatur fugit repellendusillo voluptas?</p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+                <h5 class="mb-3">Un Desarrollador Web Full Stack.</h5>
+                <p class="mt-20">Utilizo herramientas y tecnologias como React y TypeScript, como Php con Laravel.</p>
+                <DescargarCV/>
             </div>
             <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Personal Info</h3>
+                <h3 class="font-weight-light">Informacion personal.</h3>
                 <span class="line mb-5"></span>
                 <ul class="mt40 info list-unstyled">
-                    <li><span>Birthdate</span> : 09/13/1994</li>
-                    <li><span>Email</span> : email@email.com</li>
-                    <li><span>Phone</span> : +549 99999999</li>
+                    <li><span>Nacimiento</span> : 21/12/1994</li>
+                    <li><span>Email</span> : <a href="mailto:eze.di.lallo@gmail.com"> eze.di.lallo@gmail.com </a></li>
+                    <li><span>Celular</span> : <a href="https://api.whatsapp.com/send?phone=+5491131756183&text=Hola!%20Me%20contacto%20contigo%20a%20travez%20del%20enlace%20de%20tu%20portafolio!"> +54 9 1131756183 </a></li>
                 </ul>
                 <ul class="social-icons pt-3">
                     <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
@@ -55,5 +57,5 @@ export default function Container(){
             </div>
         </div>
     </div>
-    )
+    );
 }

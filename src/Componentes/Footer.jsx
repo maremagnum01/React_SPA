@@ -6,6 +6,7 @@ export default function Footer (){
             <p class="small mb-0 text-light">
                 &copy; <script>document.write(new Date().getFullYear())</script>  <i class="ti-heart text-danger"></i>
             </p>
+            
         </div>
     </footer>
     )

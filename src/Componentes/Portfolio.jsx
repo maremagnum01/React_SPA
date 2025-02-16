@@ -4,19 +4,10 @@ export default function Portfolio(){
         <div class="container">
             <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
             <div class="portfolio">
+                
+                <h6 class="title text-danger">Proximamente</h6>
                 <div class="filters">
-                    <a href="#" data-filter=".new" class="active">
-                        New
-                    </a>
-                    <a href="#" data-filter=".advertising">
-                        Advertising
-                    </a>
-                    <a href="#" data-filter=".branding">
-                        Branding
-                    </a>
-                    <a href="#" data-filter=".web">
-                        Web
-                    </a>
+                    
                 </div>
                 <div class="portfolio-container"> 
                     <div class="col-md-6 col-lg-4 web new">

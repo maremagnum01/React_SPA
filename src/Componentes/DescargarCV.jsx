@@ -2,7 +2,7 @@ import React from 'react';
 
 const DescargarCV = () => {
   const descargarCV = () => {
-    const url = '../Descargas/Ezequiel_Di_lallo.pdf';
+    const url = '/Ezequiel_Di_lallo.pdf';
     
     const enlace = document.createElement('a');
     enlace.href = url;

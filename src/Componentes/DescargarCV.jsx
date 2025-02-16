@@ -3,8 +3,7 @@ import React from 'react';
 const DescargarCV = () => {
   const descargarCV = () => {
     const url = '../Descargas/Ezequiel_Di_lallo.pdf';
-
-    // Crear un enlace de descarga
+    
     const enlace = document.createElement('a');
     enlace.href = url;
     enlace.download = 'Ezequiel_Di_lallo.pdf';
@@ -12,7 +11,7 @@ const DescargarCV = () => {
   };
 
   return (
-    <button className="btn btn-outline-danger" onClick={descargarCV}>
+    <button className="btn btn-outline-danger" onClick={()=> descargarCV()}>
       <i className="icon-down-circled2"></i>Descargar mi CV
     </button>
   );

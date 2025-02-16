@@ -131,12 +131,12 @@ export default function SectionResume() {
                             <div class="card-body" >
                                 <h6 class="title text-danger"> Talampaya </h6>
                                 <p><b>Front end</b></p>
-                                <p class="subtitle">En esta capacitacion se vuelve a experimentar tecnologías de HTML, CSS y JavaScript a nivel mas avanzado. Pero agregando React y TypeScript</p>
+                                <p class="subtitle">En esta capacitación se vuelve a experimentar tecnologías de HTML, CSS y JavaScript a nivel mas avanzado. Pero agregando React y TypeScript</p>
                                 <hr />
-                                <p><b>Libreria</b></p>
+                                <p><b>Librería</b></p>
                                 <p class="subtitle">La especialidad de esta capacitación se basa en aprender a utilizar la libreria ReactJS e implementar TypeScript.</p>
                                 <hr />
-                                <p><b>Apendizaje</b></p>
+                                <p><b>Aprendizaje</b></p>
                                 <p class="subtitle">Componentes reutilizables, Hooks (useState, useEffect, useContext), Git, React Route, TypeScript, consumo de APIs, Autenticaciones, etc.</p>
                                 <h6 class="title text-danger"> 2025</h6>
 

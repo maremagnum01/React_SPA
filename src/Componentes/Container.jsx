@@ -17,7 +17,7 @@ export default function Container(){
                 <ul class="mt40 info list-unstyled">
                     <li><span>Nacimiento</span> : 21/12/1994</li>
                     <li><span>Email</span> : <a href="mailto:eze.di.lallo@gmail.com"> eze.di.lallo@gmail.com </a></li>
-                    <li><span>Celular</span> : <a href="https://api.whatsapp.com/send?phone=+5491131756183&text=Hola!%20Me%20contacto%20contigo%20a%20travez%20del%20enlace%20de%20tu%20portafolio!"> +54 9 1131756183 </a></li>
+                    <li><span>Celular</span> : <a href="https://api.whatsapp.com/send?phone=+5491131756183&text=Hola!%20Me%20contacto%20contigo%20a%20travez%20del%20enlace%20de%20tu%20portafolio!" target="_blank"> +54 9 1131756183 </a></li>
                 </ul>
                 <ul class="social-icons pt-3">
                     <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>

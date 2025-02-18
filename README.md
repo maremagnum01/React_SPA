@@ -13,5 +13,6 @@
 ##El proyecto esta basado en una plantilla de ejemplo, la cual se dejo un backup en la carpeta "example"
 ##Se agrego un archivo pdf para poder descargar, el cual esta hecho a traves de un componente y el archivo esta ubicado en la carpeta "public"
 ##Se agrego animaciones con la libreria "AOS" de javascript, la cual se ejecuta dentro del index.html en la carpeta public
+##El componente ContactForm utiliza Formspree para poder enviar mensajes mails
 ##El proyecto se ejecuta a traves de "npm start"
 ##Se compila con "npm run build" para hacer deploy con firebase

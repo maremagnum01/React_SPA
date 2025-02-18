@@ -1,4 +1,27 @@
+import ContactForm from "./ContactForm"
+
 export default function Contact() {
+    //Script de mail javascript vanilla
+    // document.getElementById('contact-form').addEventListener('submit', async function(event){
+    //     event.preventDefault();
+
+    //     const formData = new FormData(this);
+
+    //     const formspreeEndPoint = 'https://formspree.io/f/mvgzdpbl';
+    //     const response = await fetch(formspreeEndPoint, {
+    //         method: 'POST',
+    //         body: formData,
+    //         headers: {"Accept": "applitation/jason"}
+    //     });
+
+    //     if(response.ok){
+    //         alert("Mensaje enviado!");
+    //         this.reset();
+    //     }else{
+    //         alert("Error al mandar mensaje!");
+    //     }
+    // });
+
     return (
         <div class="section contact" id="contact" >
             <div id="map" class="map"></div>
@@ -7,7 +30,8 @@ export default function Contact() {
                     <div class="col-lg-8" >
                         <div class="contact-form-card" >
                             <h4 class="contact-title">Enviame un mensaje</h4>
-                            <form action="/Formulario.php" method="POST">
+                            <ContactForm/>
+                            {/* <form action="" id="contact-form">
                                 <div class="form-group">
                                     <label for="Nombre"></label>
                                     <input class="form-control" type="text" name="Nombre" placeholder="Tu nombre " required />
@@ -21,9 +45,9 @@ export default function Contact() {
                                     <textarea class="form-control" id=" placeholder=" name="mensaje" rows="7" required />
                                 </div>
                                 <div class="form-group ">
-                                    <input type="submit" class="form-control btn btn-primary" name="enviar" value="Enviar mensaje" />
+                                    <button type="submit" class="form-control btn btn-primary" name="enviar">Enviar mensaje</button>
                                 </div>
-                            </form>
+                            </form> */}
                         </div>
                     </div>
                     <div class="col-lg-4">

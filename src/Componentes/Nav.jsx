@@ -10,7 +10,7 @@ export default function Nav() {
             <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
+                        <a href="" onClick="location.reload()" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#about" class="nav-link">Sobre mi</a>
@@ -24,9 +24,9 @@ export default function Nav() {
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Contacto</a>
                     </li>
-                    <li class="nav-item last-item">
+                    {/* <li class="nav-item last-item">
                         <Switcher/>
-                    </li>
+                    </li> */}
                 </ul>
                 {/* <ul class="navbar-nav brand">
                     <img src="assets/imgs/avatar.jpg" alt="" class="brand-img">

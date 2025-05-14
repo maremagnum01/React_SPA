@@ -1,59 +1,113 @@
-Documentación del Proyecto Portfolio Personal
+# Portfolio Personal React SPA
 
-Descripción General
+## 🚀 Descripción
+Portfolio personal desarrollado como Single Page Application (SPA) utilizando React. Este proyecto presenta una interfaz moderna y responsive para mostrar proyectos, habilidades y experiencia profesional.
 
-Este es un proyecto de portfolio personal desarrollado con React.js, que sirve como una presentación profesional del desarrollador. El proyecto está desplegado en Firebase y utiliza varias tecnologías modernas para su funcionamiento.
+## 🛠️ Tecnologías Principales
 
-Tecnologías Principales
-1 - Frontend:
-    React.js (versión 19.0.0)
-    Bootstrap para el diseño y estilos
-    AOS (Animate On Scroll) para animaciones
-    Formspree para el manejo de formularios de contacto
-2 - Backend y Despliegue:
-    Firebase para hosting y despliegue
-    Firebase Functions para funcionalidades del backend
-    Git para control de versiones
+### Frontend
+- React.js (v19.0.0)
+- Bootstrap (Diseño y estilos)
+- AOS (Animate On Scroll)
+- Formspree (Gestión de formularios)
 
-Estructura del Proyecto
+### Infraestructura
+- Firebase Hosting
+- Firebase Functions
+- Git (Control de versiones)
 
-├── src/               # Código fuente principal
-├── public/           # Archivos estáticos
-├── build/            # Versión compilada para producción
-├── functions/        # Funciones de Firebase
-└── node_modules/     # Dependencias
+## 📁 Estructura del Proyecto
 
-Características Principales
-1 - Componentes Reutilizables:
-    Contact
-    Container
-    Footer
-    Otros componentes modulares
-2 - Funcionalidades:
-    Formulario de contacto integrado con Formspree
-    Descarga de CV en formato PDF
-    Animaciones en scroll
-    Diseño responsivo
+```
+├── src/
+│   ├── Componentes/     # Componentes de React
+│   ├── Providers/       # Proveedores de contexto
+│   └── App.js          # Componente principal
+├── public/             # Archivos estáticos
+├── functions/          # Funciones de Firebase
+└── firebase.json      # Configuración de Firebase
+```
 
-Scripts Disponibles
-    npm start: Inicia el servidor de desarrollo
-    npm run build: Compila el proyecto para producción
-    npm test: Ejecuta las pruebas
-    npm run eject: Expone la configuración de webpack
+## ✨ Características
 
-Dependencias Principales
-    @formspree/react: ^2.5.1
-    firebase-admin: ^13.1.0
-    firebase-functions: ^6.3.2
-    react: ^19.0.0
-    react-dom: ^19.0.0
-    react-scripts: 5.0.1
+- 📱 Diseño totalmente responsive
+- 🎨 Animaciones suaves al hacer scroll
+- 📬 Formulario de contacto funcional
+- 📄 Descarga de CV en PDF
+- 🌐 Integración con redes sociales
+- 🔥 Despliegue automatizado en Firebase
 
-Configuración de Despliegue
-El proyecto está configurado para desplegarse en Firebase, con archivos de configuración específicos:
-    firebase.json
-    .firebaserc
-    firebase-original.json
+## 🚦 Scripts Disponibles
+
+```bash
+# Iniciar servidor de desarrollo
+npm start
+
+# Compilar para producción
+npm run build
+
+# Ejecutar pruebas
+npm test
+```
+
+## 📦 Dependencias Principales
+
+```json
+{
+  "@formspree/react": "^2.5.1",
+  "firebase-admin": "^13.1.0",
+  "firebase-functions": "^6.3.2",
+  "react": "^19.0.0",
+  "react-dom": "^19.0.0"
+}
+```
+
+## 🔧 Requisitos de Instalación
+
+1. Node.js (versión LTS recomendada)
+2. npm o yarn
+3. Cuenta en Firebase
+4. Cuenta en Formspree
+
+## 🚀 Configuración del Proyecto
+
+1. Clonar el repositorio
+```bash
+git clone [URL_DEL_REPOSITORIO]
+```
+
+2. Instalar dependencias
+```bash
+npm install
+```
+
+3. Configurar variables de entorno
+   - Crear archivo `.env` en la raíz
+   - Añadir las siguientes variables:
+     ```
+     REACT_APP_FORMSPREE_KEY=[TU_CLAVE]
+     REACT_APP_FIREBASE_CONFIG=[TU_CONFIG]
+     ```
+
+4. Iniciar el proyecto
+```bash
+npm start
+```
+
+## 📝 Notas Importantes
+
+- El proyecto utiliza Firebase para el hosting
+- Las animaciones se gestionan con la biblioteca AOS
+- El formulario de contacto requiere configuración en Formspree
+- Los archivos estáticos se encuentran en la carpeta `public`
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir los cambios que te gustaría realizar.
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.md) para más detalles.
 
 Notas Adicionales
     El proyecto está basado en una plantilla de ejemplo, con una copia de respaldo en la carpeta "example"

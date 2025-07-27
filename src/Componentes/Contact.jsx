@@ -58,7 +58,7 @@ export default function Contact() {
                                     <i class="ti-mobile icon-md"></i>
                                 </div>
                                 <div class="col-10 ">
-                                    <h6 class="d-inline">País : <br /> <span class="text-muted">Argentina</span></h6>
+                                    <h6 class="d-inline">País: <br /> <span class="text-muted">Argentina</span></h6>
                                 </div>
                             </div>
                             <div class="row mb-2">
@@ -66,7 +66,31 @@ export default function Contact() {
                                     <i class="ti-map-alt icon-md"></i>
                                 </div>
                                 <div class="col-10">
-                                    <h6 class="d-inline">Localidad :<br /> <span class="text-muted">Ciudad Autonoma de Buenos Aires</span></h6>
+                                    <h6 class="d-inline">Provincia:<br /> <span class="text-muted">Buenos Aires</span></h6>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-1 pt-1 mr-1">
+                                    <i class="ti-map-alt icon-md"></i>
+                                </div>
+                                <div class="col-10">
+                                    <h6 class="d-inline">Localidad:<br /> <span class="text-muted">Ciudad Autonoma de Buenos Aires</span></h6>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-1 pt-1 mr-1">
+                                    <i class="ti-map-alt icon-md"></i>
+                                </div>
+                                <div class="col-10">
+                                    <h6 class="d-inline">Barrio:<br /> <span class="text-muted">Flores</span></h6>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-1 pt-1 mr-1">
+                                    <i class="ti-map-alt icon-md"></i>
+                                </div>
+                                <div class="col-10">
+                                    <h6 class="d-inline">Codigo Postal:<br /> <span class="text-muted">1406</span></h6>
                                 </div>
                             </div>
                             

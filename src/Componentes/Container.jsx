@@ -7,8 +7,8 @@ export default function Container() {
                 <div class="col-lg-4 about-card">
                     <h3 class="font-weight-light">Quien soy?</h3>
                     <span class="line mb-5"></span>
-                    <h5 class="mb-3">Un Desarrollador Web Full Stack.</h5>
-                    <p class="mt-20">Stack tecnologico principal: React y TypeScript con Php y Laravel.</p>
+                    <h5 class="mb-3">Desarrollador</h5>
+                    <p class="mt-20">Tecnologias que suelo utilizar: Python, SQL y React.</p>
                     <DescargarCV />
                 </div>
                 <div class="col-lg-4 about-card">

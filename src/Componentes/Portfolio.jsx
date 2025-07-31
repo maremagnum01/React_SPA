@@ -17,7 +17,7 @@ export default function Portfolio() {
                                 <p className="card-text">
                                     Mi portafolio esta realizdo con React. Con el fin de unicamente presentarme a mi y los proyectos que haga y suba.
                                 </p>
-                                <a href="/" target="_blank" className="btn btn-primary">
+                                <a href="/" className="btn btn-primary">
                                     Ir al sitio
                                 </a>
                             </div>
@@ -52,6 +52,37 @@ export default function Portfolio() {
                                 </p>
                                 <a href="https://doccion-fc786.web.app/" target="_blank" className="btn btn-primary">
                                     Ir al sitio
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+                        <div className="card" style={{ width: '18rem' }}>
+                            <img className="card-img-top" src="imagenes/adopcion_python.png" alt="Python..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Adopcion de perros. Python</h5>
+                                <p className="card-text">
+                                    Proyecto para la facultad. Proyecto de adopcion de perros, realizado solo en python. En este proyecto utilizo Poo, patron Singleton y logica para la estructura del codigo y menu interactivo.
+                                </p>
+                                <a href="https://github.com/maremagnum01/Adopcion_perros/" target="_blank" className="btn btn-primary">
+                                    Ir al repositorio
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+                        <div className="card" style={{ width: '18rem' }}>
+                            <img className="card-img-top" src="imagenes/supermercado_java.png" alt="Supermercado..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Supermercado</h5>
+                                <p className="card-text">
+                                    Proyeto de un supermercado en el cual devuelve los precios de los productos en venta.
+                                    Es un ejercicio sencillo realizado en Java puro 
+                                </p>
+                                <a href="https://github.com/maremagnum01/Supermercado" target="_blank" className="btn btn-primary">
+                                    Ir al repositorio
                                 </a>
                             </div>
                         </div>
